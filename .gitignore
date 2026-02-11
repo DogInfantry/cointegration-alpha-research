@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- QUANT SPECIFIC DATA & OUTPUTS ---
+# Ignore raw data downloads and results to keep the repo lean
+*.csv
+*.parquet
+*.h5
+*.hdf5
+data/
+outputs/
